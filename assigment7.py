@@ -10,13 +10,13 @@ for city in countries:
 dict_list = []
 # I assigned values using indexing
 for city in cities, countries, random_index:
-    dict_A1 = {"city": cities[0], "country": countries [0], "portal": random_index["Nigeria"]}
+    dict_A = {"city": cities[0], "country": countries [0], "portal": random_index["Nigeria"]}
     dict_B = {"city": cities[1], "country": countries [1], "portal": random_index["Canada"]}
     dict_C = {"city": cities[2], "country": countries [2], "portal": random_index["France"]}
     dict_D = {"city": cities[3], "country": countries [3], "portal": random_index["New Delhi"]}
     dict_E = {"city": cities[4], "country": countries [4], "portal": random_index["Denmark"]}
 #create a list
-dict_list.append(dict_A1)
+dict_list.append(dict_A)
 dict_list.append(dict_B)
 dict_list.append(dict_C)
 dict_list.append(dict_D)
