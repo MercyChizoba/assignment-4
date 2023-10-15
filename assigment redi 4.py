@@ -58,7 +58,7 @@ else:
 
 #steak for over 10 minutes
 if welldown_steak >= 10:
-    print ("my syeak is perfect")
+    print ("my steak is perfect")
 else:
     print("you ruined my steak and, your friend is furious")
 
@@ -108,3 +108,4 @@ elif (Pdept >= required_dept) and (Pdistance <= required_distance):
     print("you can swim here")
 else:
     print("you cannot swim here")
+
