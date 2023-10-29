@@ -116,7 +116,7 @@ class dog ():
     def __init__(self, name, age):
         self.name = name
         self.age = age
-dog = dog("Billy", 4)
+dog = dog("Billy", 6)
 print(f"{dog.name} is {dog.age} years old.")
 
 class Dog:
