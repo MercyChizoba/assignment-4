@@ -38,7 +38,6 @@ print(e)
 
 @timer
 def greet():
-   name = input("Please enter your name: ")
-    print(f"Hello, {name}! Welcome to our program.")
-
-greet()
+    name = input("Please enter your name: ")
+    print(f"Hello, {name}! This is Mercy.")
+greet() 
