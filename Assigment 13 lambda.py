@@ -36,6 +36,7 @@ def simple_cal(a, b, c):
 e = simple_cal(2, 2, 1)
 print(e)
 
+@timer
 def greet():
    name = input("Please enter your name: ")
     print(f"Hello, {name}! Welcome to our program.")
