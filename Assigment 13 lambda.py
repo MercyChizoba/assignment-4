@@ -30,15 +30,14 @@ def timer(func):
 def funct():
     time.sleep(1)
 funct()
-@timer 
-def func():
-  stuff = int(input("Enter te value of your item "))
-  if stuff == str:
-     print("wrong input")
-  else:
-     pass
-func()
+@timer
+def simple_cal(a, b, c):
+    return a*b/c
+e = simple_cal(2, 2, 1)
+print(e)
 
+def greet():
+   name = input("Please enter your name: ")
+    print(f"Hello, {name}! Welcome to our program.")
 
-
-
+greet()
