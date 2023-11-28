@@ -1,4 +1,4 @@
-'''x = "awesome"
+"""x = "awesome"
 def myfunc():
   x = "fantastic"
   print("Python is " + x)
@@ -100,19 +100,19 @@ while True:
    else:
       print("alrighty")
       i +=1
-      continue'''
+      continue"""
 
-#for loop 
-'''listindope = ["apple", "sample", "gate", "dogg"]
+# for loop
+"""listindope = ["apple", "sample", "gate", "dogg"]
 for x in listindope:
-   print (x)'''
+   print (x)"""
 
-#FUNCTIONS
-'''A FUNCTION IS QUITE IMPORTANCE FOR PYTHON,
+# FUNCTIONS
+"""A FUNCTION IS QUITE IMPORTANCE FOR PYTHON,
 YOU CAN USE IT OVER AND OVER AGAIN AND CAN ASSIGN SOME
-VARIBLES TO IT'''
+VARIBLES TO IT"""
 
-def function1(name):
+"""def function1(name):
     print(name + " Ihediohamma")
 
 function1("Mercy")
@@ -126,4 +126,25 @@ function1("chidinma")
 def calculatesome(x, b):
     return 5 * x + b
 
-print(calculatesome(5,2))
+print(calculatesome(5,2))"""
+
+# use = input("please enter a number: ")
+# i = 0
+# for a in range(1, 11):
+#   i += 1
+#   print(f"{use} * {i} = {int(use) * i}")
+
+
+class person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        self.species = "human"
+
+    def intro(self, greetname):
+        print(f"hello {self.name}, i am {greetname}")
+
+
+name1 = person("isaac", 30)
+print(f"{name1.name} is {name1.age} years old and he is {name1.species}")
+name1.intro("grace")

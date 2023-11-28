@@ -39,3 +39,4 @@ while True:
         print("give a name")
 
     print("hello world")
+    print("hello")
